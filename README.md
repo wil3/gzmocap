@@ -19,13 +19,13 @@ Use default Gazebo connection `localhost:11345` and default normal MAVLink PX4 c
 `localhost:14550`,
 
 ```
-python gazebo-mocap.py 
+python gzmocap.py 
 ```
 
 Optionally supply arguments for the connection, 
 
 ```
-usage: gazebo-mocap.py [-h] [--gzhost GZHOST] [--gzport GZPORT]
+usage: gzmocap.py [-h] [--gzhost GZHOST] [--gzport GZPORT]
                        [--px4host PX4HOST] [--px4port PX4PORT]
 
 optional arguments:
