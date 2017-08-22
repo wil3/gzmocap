@@ -42,4 +42,4 @@ This script cannot be run sharing the same MAVLink connection used by your
 offboard flight computer. A heartbeat timeout will occur causing the motion
 capture system to halt and the drone to fly out of control. For this reason the
 MAVLink connection by default is for  [normal
-mode](https://github.com/PX4/Devguide/issues/181). To share the same MAVLink connection this script should run in a separate thread/process and share the same dronekit vehicle object. 
+mode](https://github.com/PX4/Devguide/issues/181) while your flight computer should use onboard mode.  To share the same MAVLink connection this script should run in a separate thread/process and share the same dronekit vehicle object. 
